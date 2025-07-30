@@ -2,8 +2,9 @@ import React from "react";
 import Header from "./common/Header";
 import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
 import Home from "./pages/Home";
-import Features from "./pages/Features";
 import Footer from "./common/Footer";
+import ContactUs from "./components/ContactUs";
+import Features from "./pages/Features";
 
 export default function App() {
   return (
@@ -12,7 +13,8 @@ export default function App() {
         <Header />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/feature" element={<Features />} />
+          <Route path="/features" element={<Features />} />
+          <Route path="/contact" element={<ContactUs />} />
         </Routes>
         <Footer />
       </Router>

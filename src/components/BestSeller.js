@@ -7,7 +7,8 @@ import { useState } from "react";
 import { useDispatch } from "react-redux";
 import { addToCart, getCartTotal } from "../redux/cartSlice";
 
-const BestSeller = () => {
+const BestSeller = () => { 
+  
   var settings = {
     responsive: [
       {

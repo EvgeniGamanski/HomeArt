@@ -17,9 +17,6 @@ export const nav = [
 
 export const aweicon = [
   {
-    icon: <FontAwesomeIcon className="mr-4" icon="heart" />,
-  },
-  {
     icon: <FontAwesomeIcon className="mr-4" icon="shopping-cart" />,
   },
   {
