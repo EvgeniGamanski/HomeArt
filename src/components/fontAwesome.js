@@ -1,7 +1,6 @@
 import { library } from "@fortawesome/fontawesome-svg-core";
 import {
   faShoppingCart,
-  faHeart,
   faAngleLeft,
   faAngleRight,
   faBalanceScale,
@@ -18,7 +17,6 @@ import {
 
 library.add(
   faShoppingCart,
-  faHeart,
   faFacebook,
   faInstagram,
   faYoutube,

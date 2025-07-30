@@ -7,7 +7,7 @@ import { useState } from "react";
 import { useDispatch } from "react-redux";
 import { addToCart, getCartTotal } from "../redux/cartSlice";
 
-const Category = () => {
+const BestSeller = () => {
   var settings = {
     responsive: [
       {
@@ -36,7 +36,6 @@ const Category = () => {
     const newItems = products.filter((item) => item.name === name);
     setMenuItem(newItems);
 
-    // for all data show
     if (name === "all") {
       setMenuItem(products);
       return;
@@ -139,4 +138,4 @@ const Category = () => {
   );
 };
 
-export default Category;
+export default BestSeller;

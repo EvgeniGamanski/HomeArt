@@ -94,11 +94,6 @@ const Arrival = () => {
                     icon="shopping-cart"
                     onClick={() => handleAddToCart(item)}
                   />
-                  <FontAwesomeIcon
-                    className="p-2 mb-1 bg-white hover:bg-red-500 hover:text-white"
-                    title="add to cart"
-                    icon="heart"
-                  />
                 </div>
               </div>
             </div>

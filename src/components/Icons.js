@@ -21,10 +21,6 @@ const Icons = () => {
     <>
       <div className="flex">
         <div>
-          <FontAwesomeIcon
-            icon="heart"
-            className="hover:text-red-500 text-2xl cursor-pointer text-white"
-          />
         </div>
         <div className="relative">
           <FontAwesomeIcon
